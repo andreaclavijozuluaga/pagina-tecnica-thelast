@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    width: 100%s;
+    font-family: 'Roboto';
+    
+}
+
+body{
+    background-image: url(/img/The_Last_of_US_Game_HD_Wallpaper_08_1366x768.jpg);
+    background-size: 1300px;
+    background-repeat: no-repeat;
+}
+.logo-the-last{
+    width: 23%;
+    background-color:rgba(0, 0, 0, .8);
+    height: 730px;
+}
+
+.logo-t{
+    width: 200px;
+    padding-left: 30px;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.section-logo{
+}
+
+.contenedor-barra-de-navegacion{
+    
+}
+
+.lista-de-navegacion{
+    width: 98%;
+    flex-direction: column;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.lista-de-navegacion-texto{
+    padding-left: 40px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    padding-top: 15px;
+    border-bottom: solid rgba(254, 193, 7, .5);
+}
