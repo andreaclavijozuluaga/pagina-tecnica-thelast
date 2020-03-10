@@ -1,40 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
-    width: 100%s;
+    width: 100%;
     font-family: 'Roboto';
     
 }
 
-body{
+body {
     background-image: url(/img/The_Last_of_US_Game_HD_Wallpaper_08_1366x768.jpg);
     background-size: 1420px;
     background-repeat: no-repeat;
     background-color: black;
-}
-.logo-the-last{
-    width: 23%;
-    background-color:rgba(0, 0, 0, .8);
-    height: 730px;
+    width: 100%;
+    
 }
 
-.logo-t{
+.logo-the-last {
+    width: 305px;
+    background-color: rgba(0, 0, 0, .7);
+    height: auto;
+}
+
+.logo-t {
     width: 200px;
     padding-left: 30px;
     padding-right: 10px;
     padding-top: 15px;
 }
 
-.section-logo{
-}
+.section-logo {}
 
-.contenedor-barra-de-navegacion{
-    
-}
+.contenedor-barra-de-navegacion {}
 
-.lista-de-navegacion{
+.lista-de-navegacion {
     width: 98%;
     flex-direction: column;
     text-decoration: none;
@@ -43,80 +45,179 @@ body{
     color: whitesmoke;
 }
 
-.lista-de-navegacion-texto{
+.lista-de-navegacion-texto {
     width: 70%;
     padding-left: 40px;
     padding-right: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     padding-top: 15px;
-    margin-bottom:10px;
+    margin-bottom: 20x;
     border-bottom: solid rgba(254, 193, 7, .5);
 }
 
-a{
+
+a.lista-de-navegacion-texto {
     color: whitesmoke;
     text-decoration: none;
     display: flex;
 }
 
-.texto-pagina-principal{
-    justify-content: center;
+a.lista-de-navegacion-texto:hover {
+    color: yellow;
+}
+
+.texto-pagina-principal {
+  
     color: white;
-    width: 90%;
-    text-align: center;
+    width: 60%;
     padding: 60px;
     margin-top: 50px;
-    
+    justify-content: center;
+    padding-left: 250px;
+
 
 }
 
-.title{
+.title {
     margin-top: 40px;
     margin-bottom: 40px;
-    background-color:  rgba(254, 193, 7, .2);
+    background-color: rgba(254, 193, 7, .2);
     padding: 10px;
-    border-bottom: solid  rgba(254, 193, 7, .2);
+    border-bottom: solid rgb(254, 193, 7);
+    font-family: 'Oswald';
+    justify-content: center;
+    
 }
 
-.subtitle{
+.subtitle {
     padding-bottom: 20px;
     margin-top: 50px;
+    padding-top: 20px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d6ac30+6,d6ac30+18,000000+100&0.65+0,0+86 */
+background: -moz-linear-gradient(left,  rgba(214,172,48,0.65) 0%, rgba(214,172,48,0.6) 6%, rgba(214,172,48,0.51) 18%, rgba(37,29,8,0) 86%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(214,172,48,0.65) 0%,rgba(214,172,48,0.6) 6%,rgba(214,172,48,0.51) 18%,rgba(37,29,8,0) 86%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(214,172,48,0.65) 0%,rgba(214,172,48,0.6) 6%,rgba(214,172,48,0.51) 18%,rgba(37,29,8,0) 86%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6d6ac30', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+    border-left: solid yellow;
+    padding-left: 20px;
+ 
 }
 
-.text{
-    margin-left: 100px;
-    margin-right: 100px;
+.text {
+
     text-align: justify;
     color: #D5D4D4;
-    font-family:  Helvetica, sans-serif;
+    font-family: 'Montserrat';
+    width: 100%;
+    margin-top: 40px;
+    
     
 }
 
-.joel{
+.joel {
     display: flex;
-}
-.imagen-joel{
-    width: 250px;
-    margin-left: 100px;
-    border-bottom: 5px solid rgba(254, 193, 7, .2);
+    
 }
 
-.ellie{
+.imagen-joel {
+    width: 20%;
+    height: 30%;
+    margin: 30px;
+    border-bottom: 5px solid rgba(254, 193, 7, .2);
+    padding-top: 50px;
+}
+
+.ellie {
     display: flex;
     flex-direction: row-reverse;
-    margin-right: 100px;
-    
+    margin-right: auto;
+    margin-left: auto;
+
 }
 
-.ellie-imagen{
-    width: 250px;
+.ellie-imagen {
+    width: 20%;
+    height: 30%;
     border-bottom: 5px solid rgba(254, 193, 7, .2);
-    
-}
-.premios-imagen{
-    width: 90%;
+    margin: 30px;
+    padding-top: 60px;
+
 }
 
-.texto-reconcimientos text{
+.premios-imagen {
+    width: 100%;
+}
+
+.texto-reconcimientos text {
     align-items: center;
+}
+
+.imagen-bosque {
+    width: 100%;
+    padding-top: 50px;
+    
+}
+
+article.seccion-juegos {
+    flex-direction: column;
+
+}
+
+.juegos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.video-juego {
+    align-content: space-between;
+    display: block;
+    margin: 30px;
+
+}
+
+.imagen-video-juego1 {
+    width: 165px;
+    display: block;
+    margin: 10px;
+}
+
+.imagen-video-juego2 {
+    width: 185px;
+    display: block;
+    margin: 10px;
+}
+
+.imagen-video-juego3 {
+    width: 165px;
+    display: block;
+    margin: 10px;
+}
+
+.imagen-video-juego4 {
+    width: 150px;
+    display: block;
+    margin: 10px;
+}
+
+a.ancla-video-juego {
+    font-size: 13px;
+    color: whitesmoke;
+    text-decoration: none;
+    border-bottom: solid rgba(254, 193, 7, .5);
+  
+
+a.ancla-video-juego:hover {
+    color: yellow;
+}
+
+.naughty {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.contenedor-critica {
+    background-color: yellow;
+    padding: 30px;
 }
