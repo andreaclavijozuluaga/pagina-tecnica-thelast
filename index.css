@@ -10,8 +10,9 @@
 
 body{
     background-image: url(/img/The_Last_of_US_Game_HD_Wallpaper_08_1366x768.jpg);
-    background-size: 1300px;
+    background-size: 1420px;
     background-repeat: no-repeat;
+    background-color: black;
 }
 .logo-the-last{
     width: 23%;
@@ -38,14 +39,40 @@ body{
     flex-direction: column;
     text-decoration: none;
     list-style: none;
-    font-size: 20px;
+    font-size: 18px;
     color: whitesmoke;
 }
 
 .lista-de-navegacion-texto{
+    width: 70%;
     padding-left: 40px;
     padding-right: 5px;
     margin-bottom: 10px;
     padding-top: 15px;
     border-bottom: solid rgba(254, 193, 7, .5);
 }
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: flex;
+}
+
+.texto-pagina-principal{
+    justify-content: center;
+    color: white;
+    width: 90%;
+    text-align: center;
+    padding: 60px;
+    margin-top: 50px;
+
+}
+
+.title{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color:  rgba(254, 193, 7, .2);
+    padding: 10px;
+    border-bottom: solid  rgba(254, 193, 7, .2);
+}
+
