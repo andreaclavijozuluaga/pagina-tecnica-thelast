@@ -5,14 +5,14 @@
 * {
     margin: 0px;
     padding: 0px;
-    width: 100%;
+     width: 100%; 
     font-family: 'Roboto';
     
 }
 
 body {
     background-image: url(/img/The_Last_of_US_Game_HD_Wallpaper_08_1366x768.jpg);
-    background-size: 1420px;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
     width: 100%;
@@ -20,21 +20,23 @@ body {
 }
 
 .logo-the-last {
-    width: 305px;
+    width: 300px;
     background-color: rgba(0, 0, 0, .7);
     height: auto;
 }
 
+@media only screen and (min-width:375px) and (max-width: 667px){ 
+    .logo-the-last{
+        width: 100%;
+    }
+}
+
 .logo-t {
-    width: 200px;
+    width: 50%;
     padding-left: 30px;
     padding-right: 10px;
     padding-top: 15px;
 }
-
-.section-logo {}
-
-.contenedor-barra-de-navegacion {}
 
 .lista-de-navegacion {
     width: 98%;
@@ -213,11 +215,7 @@ a.ancla-video-juego:hover {
 }
 
 .naughty {
-    width: 100%;
+    width: 300px;
     margin-bottom: 30px;
 }
 
-.contenedor-critica {
-    background-color: yellow;
-    padding: 30px;
-}
