@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: url(/img/The_Last_of_US_Game_HD_Wallpaper_08_1366x768.jpg);
+    background-image: url(img/The_Last_of_US_Game_HD_Wallpaper_08_1366x768.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-color: black;
@@ -31,11 +31,22 @@ body {
     }
 }
 
+@media only screen and (min-width:768px) and (max-width: 1024px){ 
+    .logo-the-last{
+        width: 400px;
+    }
+}
+
 .logo-t {
     width: 50%;
     padding-left: 30px;
     padding-right: 10px;
     padding-top: 15px;
+}
+@media only screen and (min-width:768px) and (max-width: 1024px){ 
+    .logo-t{
+        width: 20%;
+    }
 }
 
 .lista-de-navegacion {
@@ -80,6 +91,24 @@ a.lista-de-navegacion-texto:hover {
 
 }
 
+@media only screen and (min-width:375px) and (max-width: 667px){ 
+    .texto-pagina-principal{
+        width: 95%;
+        padding: 10px;
+        
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px){ 
+    .texto-pagina-principal{
+        width: 80%;
+        padding-left: 80px;
+        margin-top: 10px;
+        padding-top: 0px;
+    }
+}
+
+
 .title {
     margin-top: 40px;
     margin-bottom: 40px;
@@ -121,12 +150,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6d6ac30', e
     
 }
 
+@media only screen and (min-width:375px) and (max-width: 667px){ 
+    .joel{
+        width: 100%;
+        display: block;
+    }  
+}
+
 .imagen-joel {
     width: 20%;
     height: 30%;
     margin: 30px;
     border-bottom: 5px solid rgba(254, 193, 7, .2);
     padding-top: 50px;
+}
+@media only screen and (min-width:375px) and (max-width: 667px){ 
+    .imagen-joel{
+        width: 90%;
+        display: block;
+        padding-top: 0;
+    }  
 }
 
 .ellie {
@@ -136,6 +179,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6d6ac30', e
     margin-left: auto;
 
 }
+@media only screen and (min-width:375px) and (max-width: 667px){ 
+    .ellie{
+        width: 100%;
+        display: block;
+    }  
+}
+
 
 .ellie-imagen {
     width: 20%;
@@ -144,6 +194,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6d6ac30', e
     margin: 30px;
     padding-top: 60px;
 
+}
+
+@media only screen and (min-width:375px) and (max-width: 667px){ 
+    .ellie-imagen{
+        width: 90%;
+        display: block;
+        padding-top: 0;
+    }  
 }
 
 .premios-imagen {
@@ -165,11 +223,26 @@ article.seccion-juegos {
 
 }
 
+
 .juegos {
     display: flex;
     width: 100%;
     justify-content: center;
 
+}
+@media only screen and (min-width:375px) and (max-width: 667px){ 
+    .juegos{
+        width: 90%;
+        display: block;
+        text-align: center;
+    }  
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px){ 
+    .juegos{
+        text-align: center;
+   
+    }
 }
 
 .video-juego {
@@ -178,17 +251,37 @@ article.seccion-juegos {
     margin: 30px;
 
 }
+@media only screen and (min-width:768px) and (max-width: 1024px){ 
+    .video-juego{
+        margin:0px;
+    }
+}
 
 .imagen-video-juego1 {
     width: 165px;
     display: block;
     margin: 10px;
 }
+@media only screen and (min-width:375px) and (max-width: 667px){ 
+    .imagen-video-juego1{
+        width: 90%;
+        display: block;
+        text-align: center;
+    }  
+}
+
 
 .imagen-video-juego2 {
     width: 185px;
     display: block;
     margin: 10px;
+}
+@media only screen and (min-width:375px) and (max-width: 667px){ 
+    .imagen-video-juego2{
+        width: 90%;
+        display: block;
+        text-align: center;
+    }  
 }
 
 .imagen-video-juego3 {
@@ -196,11 +289,25 @@ article.seccion-juegos {
     display: block;
     margin: 10px;
 }
+@media only screen and (min-width:375px) and (max-width: 667px){ 
+    .imagen-video-juego3{
+        width: 90%;
+        display: block;
+        text-align: center;
+    }  
+}
 
 .imagen-video-juego4 {
     width: 150px;
     display: block;
     margin: 10px;
+}
+@media only screen and (min-width:375px) and (max-width: 667px){ 
+    .imagen-video-juego4{
+        width: 90%;
+        display: block;
+        text-align: center;
+    }  
 }
 
 a.ancla-video-juego {
@@ -208,14 +315,13 @@ a.ancla-video-juego {
     color: whitesmoke;
     text-decoration: none;
     border-bottom: solid rgba(254, 193, 7, .5);
-  
+}
 
 a.ancla-video-juego:hover {
     color: yellow;
-}
+} 
 
 .naughty {
-    width: 300px;
-    margin-bottom: 30px;
-}
-
+    width: 100%;
+    margin-bottom: 10px;
+} 
