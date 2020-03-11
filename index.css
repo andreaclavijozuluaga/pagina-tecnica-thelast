@@ -325,3 +325,13 @@ a.ancla-video-juego:hover {
     width: 100%;
     margin-bottom: 10px;
 } 
+
+footer{
+    display: block;
+}
+.titulo-final{
+    font-size: 13px;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
